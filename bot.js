@@ -60,7 +60,7 @@ const T = {
     payBank: 'Bank Transfer',
     payCash: 'Cash Payment',
     payWhatsApp: 'Pay via WhatsApp',
-    bankDetails: 'Bank Transfer Details:\n\nBank: RAKBANK (RAK)\nAccount Name: ASK MIAN LLC\nAccount: 0303698014001\nIBAN: AE770400000303698014001\n\nAfter transfer, please upload your receipt.', // <-- UPDATE: Edit these values in bot.js to match your real bank account
+    bankDetails: 'Bank Transfer Details:\n\nBank: First Abu Dhabi Bank (FAB)\nAccount Name: ASK MIAN LLC\nAccount: 1234567890\nIBAN: AE123456789012345678901\n\nAfter transfer, please upload your receipt.', // <-- UPDATE: Edit these values in bot.js to match your real bank account
     uploadReceipt: 'Please upload your *Transfer Receipt* (screenshot/photo)',
     receiptReceived: 'Receipt received! We will verify your payment.',
     cashInstructions: 'For cash payment, please visit our office in Abu Dhabi.\n\nAddress: Office on Appointment\nAbu Dhabi, UAE\nPhone: +971 55 868 9543\n\nMon - Fri: 9:00 AM - 9:00 PM',

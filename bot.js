@@ -60,7 +60,7 @@ const T = {
     payBank: 'Bank Transfer',
     payCash: 'Cash Payment',
     payWhatsApp: 'Pay via WhatsApp',
-    bankDetails: 'Bank Transfer Details:\n\nBank: First Abu Dhabi Bank (FAB)\nAccount Name: ASK MIAN LLC\nAccount: 1234567890\nIBAN: AE123456789012345678901\n\nAfter transfer, please upload your receipt.', // <-- UPDATE: Edit these values in bot.js to match your real bank account
+    bankDetails: 'Bank Transfer Details:\n\nBank: RAKBANK (RAK)\nAccount Name: ASK MIAN LLC\nAccount: 0303698014001\nIBAN: AE770400000303698014001\nSWIFT: NRAKAEAK\n\nAfter transfer, please upload your receipt.', // <-- UPDATE: Edit these values in bot.js to match your real bank account
     uploadReceipt: 'Please upload your *Transfer Receipt* (screenshot/photo)',
     receiptReceived: 'Receipt received! We will verify your payment.',
     cashInstructions: 'For cash payment, please visit our office in Abu Dhabi.\n\nAddress: Office on Appointment\nAbu Dhabi, UAE\nPhone: +971 55 868 9543\n\nMon - Fri: 9:00 AM - 9:00 PM',
@@ -133,7 +133,15 @@ const T = {
     payBank: 'ባንክ ዝውውር',
     payCash: 'ጥሬ ገንዘብ',
     payWhatsApp: 'በWhatsApp ይክፈሉ',
-    bankDetails: ' // <-- UPDATE: Real bank details here የባንክ ዝውውር ዝርዝሮች:\n\nባንክ: First Abu Dhabi Bank (FAB)\nስም: ASK MIAN LLC\nሂሳብ: 1234567890\nIBAN: AE123456789012345678901\n\nእባክዎ ዝውውር ካደረጉ በኋላ ደረሰኝዎን ያስገቡ።' // <-- UPDATE: Real bank details here ,
+    bankDetails: 'የባንክ ዝውውር ዝርዝሮች:
+
+ባንክ: RAKBANK (RAK)
+ስም: ASK MIAN LLC
+ሂሳብ: 0303698014001
+IBAN: AE770400000303698014001
+SWIFT: NRAKAEAK
+
+እባክዎ ዝውውር ካደረጉ በኋላ ደረሰኝዎን ያስገቡ።',
     uploadReceipt: 'እባክዎ *የዝውውር ደረሰኝዎን* (screenshot/ፎቶ) ያስገቡ',
     receiptReceived: 'ደረሰኝ ተቀብለናል! ክፍያዎን እናረጋግጣለን።',
     cashInstructions: 'ጥሬ ገንዘብ ለመክፈያ፣ እባክዎ ወደ ቢሮአችን በአቡ ዳቢ ይምጡ።\n\nአድራሻ: በቀጠሮ\nአቡ ዳቢ, UAE\nስልክ: +971 55 868 9543\n\nሰኞ - አርብ: 9:00 ሰዓት - 9:00 ማታ',
@@ -206,7 +214,7 @@ const T = {
     payBank: 'ናይ ባንክ ምሕዳስ',
     payCash: 'ጥሬ ገንዘብ',
     payWhatsApp: 'ብWhatsApp ክፈል',
-    bankDetails: 'ናይ ባንክ ምሕዳስ ዝርዝር:\n\nባንክ: First Abu Dhabi Bank (FAB)\nስም: ASK MIAN LLC\nሒሳብ: 1234567890\nIBAN: AE123456789012345678901\n\nድሕሪ ምሕዳስ እባእኹም ደረሰኽኩም ኣሰዓቡ።',
+    bankDetails: 'ናይ ባንክ ምሕዳስ ዝርዝር:\n\nባንክ: RAKBANK (RAK)\nስም: ASK MIAN LLC\nሒሳብ: 0303698014001\nIBAN: AE770400000303698014001\nSWIFT: NRAKAEAK\n\nድሕሪ ምሕዳስ እባእኹም ደረሰኽኩም ኣሰዓቡ።',
     uploadReceipt: 'እባእኹም *ደረሰኽ ምሕዳስ* (screenshot/ምስሊ) ኣሰዓቡ',
     receiptReceived: 'ደረሰኽ ተቐቢልና! ክፍሊትኹም ንናረጋግጽ።',
     cashInstructions: 'ጥሬ ገንዘብ ንምኽፋል እባእኹም ናብ ቢሮና ኣብ አቡ ዳቢ ኑዑ።\n\nአድራሻ: ብቀይሮ\nአቡ ዳቢ, UAE\nስልኪ: +971 55 868 9543\n\nሰኑይ - ዓርቢ: 9:00 ሰዓት - 9:00 ምሸት',
@@ -279,7 +287,7 @@ const T = {
     payBank: 'Daddaffiin Bankii',
     payCash: 'Kaffaltii Qarshii',
     payWhatsApp: 'WhatsAppitiin Kaffali',
-    bankDetails: 'Odeeffannoo Daddaffii Bankii:\n\nBankii: First Abu Dhabi Bank (FAB)\nMaqaa: ASK MIAN LLC\nLakkoofsa Herrega: 1234567890\nIBAN: AE123456789012345678901\n\nDaddaffii booda maaloo risiipiiti ergaa.',
+    bankDetails: 'Odeeffannoo Daddaffii Bankii:\n\nBankii: RAKBANK (RAK)\nMaqaa: ASK MIAN LLC\nLakkoofsa Herrega: 0303698014001\nIBAN: AE770400000303698014001\nSWIFT: NRAKAEAK\n\nDaddaffii booda maaloo risiipiiti ergaa.',
     uploadReceipt: 'Maaloo *Risiipiiti Daddaffii* keessan (screenshot/suuraa) ergaa',
     receiptReceived: 'Risiipiiti fudhatameera! Kaffaltii keessan mirkaneessina.',
     cashInstructions: 'Qarshiin kaffaltiif, maaloo waajjira keenya Abu Dhabitti dhufaa.\n\nTeessoo: Waajjira Appointment\nAbu Dhabi, UAE\nBilbila: +971 55 868 9543\n\nJimaata - Gumata: 9:00 WD - 9:00 WB',
